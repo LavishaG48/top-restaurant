@@ -1,0 +1,34 @@
+body {
+  background-image: linear-gradient(rgba(255,255,255,.07), rgba(255,255,255,.07)), url("https://i.pinimg.com/originals/76/89/c5/7689c5513084cd3ae199cec4f9b84af3.jpg");
+  background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-size: 100% 100%;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 5rem;
+  font-weight: bold;
+  color: white;
+  width: 75%;
+  text-align: center;
+  position: relative;
+  left: 18%;
+  top: 31rem;
+}
+
+form {
+  position: relative;
+  left: 13%;
+  top: 30rem;
+}
+
+.city-input{
+  width: 30rem;
+  position: relative;
+  top: 3.4rem;
+  left: 44rem;
+}

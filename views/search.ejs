@@ -1,0 +1,55 @@
+<!-- This ejs is rendered once get request has been made to the zomato API -->
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Restaurants</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+<body>
+  <div class="top">
+    <h1>Top Restaurants</h1>
+  </div>
+
+  <!-- Creates 10 cards inside the division which allows 3 cards in a row -->
+
+  <div class="middle">
+    <div class="row">
+      <%  for(i=0;i<10;i++){ %>
+      <div class="col-lg-4 ">
+        <div class="card card-css">
+          <img class="card-img-top img-css" src=<%= restaurantImage[i] %> alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title"><%= restaurantName[i] %></h5>
+            <a href=<%= restaurantUrl[i] %> class="btn btn-primary btn-sm card-button">Zomato Profile</a>
+          </div>
+        </div>
+      </div>
+      <%  } %>
+    </div>
+  </div>
+
+
+
+  <div class="bottom">
+    <button type="submit" class="btn btn-lg btn-light"><a href="/">Go Back</a></button>
+  </div>
+
+</body>
+
+</html>

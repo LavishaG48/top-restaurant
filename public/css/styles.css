@@ -1,0 +1,56 @@
+
+body{
+  text-align: center;
+  background-color: #e7305b;
+}
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 5rem;
+  font-weight: bold;
+  color: #faf2f2;
+  width: 75%;
+  text-align: center;
+  position: relative;
+  left: 65px;
+  padding: 3%;
+}
+h5{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.7rem;
+  font-weight: bold;
+  color: #faf2f2;
+  width: 75%;
+  text-align: center;
+  position: relative;
+  left: 20px;
+}
+.top{
+  margin: 30px;
+}
+.middle{
+  margin: 30px;
+}
+
+.bottom{
+  margin: 45px;
+}
+
+.card-css{
+  margin: 20px 10px;
+  height: 95%;
+  width: 55%;
+  /* padding: 15px; */
+  /* border-radius: 5px; */
+  border-radius: 5px;
+  border-style: solid;
+  border-color: white;
+}
+
+.img-css{
+  height:200px;
+  width: 250px;
+}
+
+.card-button{
+  margin: 15px;
+}
